@@ -28,8 +28,8 @@ public class WatsonAsrDriverTest {
         
         //setup parameters
         Map<String, String> params = new HashMap<>();
-        params.put("WATSON_API_USERNAME", "321965b7-b4fc-4a94-bdbe-cbf77a2bf029");
-        params.put("WATSON_API_PASSWORD", "VcedeadGFMzq");
+        params.put("WATSON_API_USERNAME", "[YOUR USERNAME]");
+        params.put("WATSON_API_PASSWORD", "[YOUR PASSWORD]");
         
         //call configure method
         watsonAsrDriver.configure(params);
